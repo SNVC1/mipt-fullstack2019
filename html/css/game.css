@@ -1,0 +1,154 @@
+body {
+  background: #0b1e00 url("./img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.page {
+  background: url("./img/b.jpg");
+  border: 2px ridge darkgreen;
+  position: relative;
+  top: 15px;
+  width: 60%;
+  margin-left: 20%;
+  height: 800px;
+}
+
+.header-item {
+  background-color: darkolivegreen;
+  padding: 5px 119px;
+}
+
+.header-menu {
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-ref {
+  text-decoration: none;
+  color: yellow;
+  display: flex;
+}
+
+
+
+
+.page-home_club {
+  float: left;
+  text-align: right;
+  width: 420px;
+  height: 240px;
+}
+
+.page-home_club_info {
+  float: left;
+  margin-left: 100px;
+}
+
+.page-home_club_logo {
+  float: left;
+}
+
+.page-home_club_name {
+  font-size: 30px;
+  margin-top: 220px;
+  text-align: center;
+}
+
+.page-home_club_score {
+  padding: 0 15px;
+  background-color: red;
+  border-radius: 3px;
+  float: right;
+  text-align: right;
+  width: 46px;
+  margin-top: 50px;
+  font-size: 90px;
+}
+
+.page-guest_club {
+  width: 420px;
+  float: right;
+  text-align: left;
+  height: 240px;
+}
+
+.page-guest_club_logo {
+  float: right;
+}
+
+.page-guest_club_info {
+  float: right;
+  margin-right: 100px;
+}
+
+.page-guest_club_score {
+  padding: 0 15px;
+  border-radius: 3px;
+  background-color: red;
+  float: left;
+  text-align: left;
+  width: 46px;
+  margin-top: 50px;
+  font-size: 90px;
+}
+
+.page-guest_club_name {
+  font-size: 30px;
+  margin-top: 220px;
+  text-align: center;
+}
+
+.page-container {
+  color: yellow;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-bet_block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  color: yellow;
+}
+
+.page-bet_block>input {
+  display: none;
+}
+
+.page-bet_block>label {
+  width: 90px;
+  color: yellow;
+  display: inline-block;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid yellow;
+  background: inherit;
+  cursor: pointer;
+}
+
+.page-bet_block>input:checked + label {
+  color: white;
+  border: 1px solid green;
+  background: green;
+}
+
+.page-bet_value_block {
+  display: flex;
+  margin-top: 50px;
+  color: yellow;
+  margin-left: 60px;
+}
+
+#input_1> {
+  width: 200px;
+}
+
+.page-bet_value_block>label {
+  margin-left: 20px;
+}
+
